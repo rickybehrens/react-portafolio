@@ -4,6 +4,11 @@
   padding: 2rem;
 }
 
+main {
+  min-height: calc(85vh - 100px); /* Adjust the height as needed */
+  padding-bottom: 50px; /* Adjust padding to accommodate the footer height */
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -96,6 +101,7 @@ input[type="submit"] {
 }
 
 .footer {
+  width: 100%;
   padding: 1rem;
   text-align: center;
 }
@@ -110,6 +116,6 @@ input[type="submit"] {
 }
 
 .logo-container img {
-  width: 50px; /* Adjust the width as needed */
+  width: 30px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
