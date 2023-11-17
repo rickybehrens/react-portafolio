@@ -1,3 +1,7 @@
+body {
+  background-color: #d4d4d4;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,12 +9,17 @@
 }
 
 main {
-  min-height: calc(85vh - 100px); /* Adjust the height as needed */
-  padding-bottom: 50px; /* Adjust padding to accommodate the footer height */
+  min-height: calc(85vh - 100px);
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 h1, h4 {
   padding-bottom: 20px; /* Adjust the bottom padding as needed */
+}
+
+p {
+  font-size: large;
 }
 
 .header {
@@ -73,7 +82,7 @@ h1, h4 {
 }
 
 .profile-picture {
-  max-width: 10%; /* Set the maximum width to the container width */
+  max-width: 15%; /* Set the maximum width to the container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: make it a circular image */
   margin: 15px;
@@ -127,7 +136,7 @@ input[type="submit"] {
 img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 
 }
 
