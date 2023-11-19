@@ -145,3 +145,40 @@ img {
   gap: 0.5rem;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
+
+span {
+  padding: 0px 0px 0px 200px;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.cv-image {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.download-button {
+  padding: 10px;
+  background-color: #07509e;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  zoom: 1.1;
+  background-color: #003f83;
+}
