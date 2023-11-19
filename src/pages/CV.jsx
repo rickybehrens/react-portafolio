@@ -1,5 +1,5 @@
 import cvImage from '/cv.png';
-import cvPdf from '/Ricardo-Behrens-CV.pdf';
+import cvPdf from '/cv.pdf';
 
 export default function CV() {
     const handleDownload = () => {
@@ -8,7 +8,7 @@ export default function CV() {
         // Set the href attribute to the path of your PDF file
         link.href = cvPdf;
         // Set the download attribute with the desired file name
-        link.download = '/cv.pdf';
+        link.download = '/Ricardo-Behrens-CV.pdf';
         // Append the link to the document
         document.body.appendChild(link);
         // Trigger a click event on the link to start the download
