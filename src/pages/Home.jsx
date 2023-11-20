@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const IMAGES_PER_PAGE = 3;
-const TRANSITION_INTERVAL = 2500; // 3 seconds
+const TRANSITION_INTERVAL = 2000; // 3 seconds
 
 export default function Home() {
   const [imageList, setImageList] = useState([]);

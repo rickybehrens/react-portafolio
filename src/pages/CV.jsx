@@ -1,3 +1,5 @@
+import React from 'react';
+
 import cvImage from '/cv.png';
 import cvPdf from '/cv.pdf';
 
