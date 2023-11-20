@@ -1,7 +1,7 @@
 import React from 'react';
 
 import cvImage from '/cv.png';
-import cvPdf from '/cv.pdf';
+import cvPdf from '/Ricardo-Behrens-CV.pdf';
 
 export default function CV() {
     const handleDownload = () => {
