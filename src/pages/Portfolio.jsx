@@ -12,9 +12,9 @@ export default function Portfolio() {
       </div>
       <div className='portfolio-container'>
         <div className='portfolio-item'>
-        <a href='https://github.com/brochb/group-project1/' target='_blank' rel='noopener noreferrer' onClick={(e) => {
+        <a href='https://brochb.github.io/group-project1/' target='_blank' rel='noopener noreferrer' onClick={(e) => {
               e.preventDefault();
-              handleItemClick('https://github.com/brochb/group-project1/');
+              handleItemClick('https://brochb.github.io/group-project1/');
             }}>
           <img className="portfolio-image" src="/book.jpeg" alt="The Book Search Extraordinare!" />
           <div className='portfolio-info' alt='Project 1'>
